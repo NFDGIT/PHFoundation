@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PHFoundation_Example' do
+  pod 'PHFoundation', :path => '../'
+
+  target 'PHFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
