@@ -1,0 +1,6 @@
+framework module PHFoundation {
+  umbrella header "PHFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

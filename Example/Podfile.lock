@@ -1,0 +1,16 @@
+PODS:
+  - PHFoundation (0.1.0)
+
+DEPENDENCIES:
+  - PHFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  PHFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PHFoundation: 973180a6ca85cef758584eaa8824923a2292668f
+
+PODFILE CHECKSUM: c8cb232691ebf3fd8096f58f578f44b4a54981b2
+
+COCOAPODS: 1.9.3

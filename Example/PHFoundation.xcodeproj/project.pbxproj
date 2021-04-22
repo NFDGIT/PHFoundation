@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* PHFoundation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHFoundation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6CE3C4D49513BA4B37C13E1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9BD3D91DAAA7970F1C6AA85E /* PHFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PHFoundation.podspec; path = ../PHFoundation.podspec; sourceTree = "<group>"; };
+		6CE3C4D49513BA4B37C13E1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9BD3D91DAAA7970F1C6AA85E /* PHFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PHFoundation.podspec; path = ../PHFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C84BF90C517C3FB85B78C056 /* Pods-PHFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHFoundation_Tests.release.xcconfig"; path = "Target Support Files/Pods-PHFoundation_Tests/Pods-PHFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0BC1A8176C09FF5C2BE579A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0BC1A8176C09FF5C2BE579A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DFC40111432504EE90A2BC5C /* Pods_PHFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A920F1DFD870CDDAAA0ED7 /* Pods-PHFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PHFoundation_Tests/Pods-PHFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F53D244790749C89E30769E5 /* Pods-PHFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-PHFoundation_Example/Pods-PHFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				E5A920F1DFD870CDDAAA0ED7 /* Pods-PHFoundation_Tests.debug.xcconfig */,
 				C84BF90C517C3FB85B78C056 /* Pods-PHFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
